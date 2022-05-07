@@ -81,18 +81,18 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel1111
+                    Marcelo da Silva Almeida
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="https://laravel.com/docs">Marcelo Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel-news.com">Marcelo News</a>
+                    <a href="https://blog.laravel.com">Marcelo Blog</a>
+                    <a href="https://nova.laravel.com">Marcelo Nova</a>
+                    <a href="https://forge.laravel.com">Marcelo Forge</a>
+                    <a href="https://vapor.laravel.com">Marcelo Vapor</a>
+                    <a href="https://github.com/laravel/laravel">Marcelo GitHub</a>
                 </div>
             </div>
         </div>
