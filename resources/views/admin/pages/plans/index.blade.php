@@ -3,17 +3,17 @@
 @section('title', 'Planos')
 
 @section('content_header')
-    <h1>Dashboard</h1>
+    <h1>Planos <a href="{{ route('plans.create') }}"class= "btn btn-dark">ADD</a></h1>
 @stop
 
-@section('content')
-  <div class='card'>
-  </div>
+ @section('content')
+    <div class="card">
+
       <div class="card-header">
           #filtros
 
-      </div>
-         <div class="card-body">
+     </div>
+        <div class="card-body">
             <table class="table table-condensed">
                 <thead>
                     <tr>
@@ -25,25 +25,27 @@
                 <tbody>
                     @foreach      ($plans as $plan)
                         <tr>
-                                   <td>
+                                    <td>
                                              {{$plan->name}}
                                     </td>
                                      <td>
-                                             {{$plan->price}}
+                                             R$ {{ number_format($plan->price, 2, ',', '.') }}
                                      </td>
-                                             <td>
+
                                              <td style="width=10px3">
-                                             <a href=""class="btn btn-warning">VER</a></td>
+                                             <a href="{{ route('plans.show', $plan->url)}}"class="btn btn-warning">VER</a></td>
 
                                              </td>
                         </tr>
 
                     @endforeach
-                </tbody>
+                 </tbody>
 
 
             </table>
-
         </div>
+
+      </div>
+    </div>
 
 @stop
